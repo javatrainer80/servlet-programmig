@@ -59,3 +59,6 @@ Location:/servlets-05-v1/send-result
 
 # init & Context params
 - Don't override init(ServletConfig) method- if we override getInitParam() will not work.
+
+- getInitParameterNames() for getting init params
+- ServletContext context=getServletContext(); for getting context params
