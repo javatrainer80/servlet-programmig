@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app  
+  xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+    <!--<servlet>
+        <display-name>AddressServlet</display-name>
+        <servlet-name>address-servlet</servlet-name>
+        <init-param>
+            <param-name>city</param-name>
+            <param-value>HYD</param-value>
+        </init-param>
+        <init-param>
+            <param-name>state</param-name>
+            <param-value>TS</param-value>
+        </init-param>
+    </servlet>-->
+    
+    <!-- Context Parameters-->
+     <context-param>
+        <param-name>city</param-name>
+        <param-value>SEC</param-value>
+    </context-param>
+    <context-param>
+        <param-name>state</param-name>
+        <param-value>TS</param-value>
+    </context-param>
+    
+    
+</web-app>
