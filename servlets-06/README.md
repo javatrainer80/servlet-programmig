@@ -16,3 +16,11 @@ if(null!=uname && !uname.isEmpty() && uname.equalsIgnoreCase("tech2java")) {
 	rd.forward(req, resp);
 }
 ```
+
+# Foreign ReqeustDispatcher
+
+```java
+ServletContext foreignContext=getServletContext().getContext("/webapp2");
+RequestDispatcher rd=foreignContext.getRequestDispatcher("/servlet");
+rd.forward(req, resp);
+```
